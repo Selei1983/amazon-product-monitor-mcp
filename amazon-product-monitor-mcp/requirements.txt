@@ -1,0 +1,26 @@
+# Amazon Product Monitor MCP Server Dependencies
+
+# Core MCP Framework
+fastmcp>=0.1.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+
+# Email Support
+# (Built-in smtplib and email modules)
+
+# Data Processing
+# (Built-in json, datetime, pathlib modules)
+
+# Optional: WebDriver Manager (for easier Chrome setup)
+webdriver-manager>=4.0.0
+
+# Development Dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Note: This project is designed to work with uv package manager
+# Install with: uv sync
+# Or use pip: pip install -r requirements.txt

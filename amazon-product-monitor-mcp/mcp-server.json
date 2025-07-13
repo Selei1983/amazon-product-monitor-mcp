@@ -1,0 +1,23 @@
+{
+  "name": "agent_generated_amazon_product_monitor",
+  "exhibit_name": "Amazon 商品监控与邮件通知",
+  "type": 3,
+  "command": "sh /workspace/amazon-product-monitor-mcp/run.sh",
+  "args": [],
+  "env": {},
+  "description": "一个功能强大的 Amazon 商品监控服务，能够自动搜索和分析 Amazon 商品，识别最佳评分、最高折扣和最佳销量的商品，并通过邮件发送详细的分析报告。内置 Amazon 联盟支持 (joweaipmclub-20)，所有商品链接自动包含联盟标签。支持定时监控、历史记录和多维度商品分析。",
+  "description_for_agent": "Amazon 商品监控工具，提供商品搜索、智能分析、邮件报告和定时监控功能。可以根据评分、折扣、销量等维度分析商品，生成详细报告并通过邮件发送。",
+  "user_params": {
+    "args": {},
+    "env": {
+      "SENDER_EMAIL": {
+        "required": false,
+        "description": "发送邮件报告的邮箱地址（推荐使用 Gmail）"
+      },
+      "SENDER_PASSWORD": {
+        "required": false,
+        "description": "发送邮件的邮箱密码或应用专用密码"
+      }
+    }
+  }
+}
